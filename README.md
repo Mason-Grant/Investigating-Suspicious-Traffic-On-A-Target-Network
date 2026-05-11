@@ -49,7 +49,11 @@ With this project, the aim is to capture and analyse the complete process of a w
    * The potential impacts caused by these security gaps are severe. As DNS queries are not encrypted any bad actor can perform passive reconnaissance in order to build  a profile of the users habits I.e the websites they frequent, in order to target a vulnerable website the user might frequent. Moreover, as there is no proper encryption any credentials used on this website can be easily deciphered. as people tend to reuse passwords (even for their company work accounts) it could lead to a credential stuffing attack against a company's infrastructure due to the leaked credentials. In turn, this could lead to a bad actor moving laterally and potentially compromising the company's entire system. whether they accessed the HTTP website on the company network or not.
 
 * ***Recommended Remediations***
-
+   * In this scenario we need to implement techniques indicative of the zero trust framework such as:
+     * ***Banning HTTP*** the first critical step is to prevent any one from accessing websites via port 80 ensuring that website traffic is only sent via port 443(HTTPS) will ensure all enformation is encrypted making it harder for anyone sniffing packets on the network to sniff credentials or cookies etc.
+     * ***Securing DNS*** to prevent DNS queries beint sent as clear-text DOH(DNS over HTTPS) needs to be setup in order to prevent bad actors from sniffing clear-text DNS queries which can lead to a breach. this can be implemented as an SOP citing that employees must enable this in their browser or windows setting, for example.
+    
+  
 This project is substantial as it mirrors real-world network troubleshooting. Understanding the TCP handshake is vital to troubleshooting errors with unstable conections or blockages caused by firewalls.Moreover, seeing the stark contrast between unencrypted and encrypted traffic highlights the absolute importance of TLS/SSL in modern cybersecurity. This project demonstrated understanding of layers 3,4 and 7 of the OSI model, which is a critical foundation of networking.
 
 
