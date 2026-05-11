@@ -42,6 +42,7 @@ With this project, the aim is to capture and analyse the complete process of a w
 **5. Explanation**
 
 * ***Outline of Security Posture***
+   * This investigation has identified      that the target network is conducting operations whilst harboring multiple gaps in security that compromise the confidentiality and integrity of the data of users using this network. through a lack of cryptographic techniques we are able to read critical information, like session cookies and user data, in clear-text. which means a threat actor could also see this data.
 
 
 * ***Impact Analysis***
