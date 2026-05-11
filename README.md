@@ -46,6 +46,7 @@ With this project, the aim is to capture and analyse the complete process of a w
 
 
 * ***Impact Analysis***
+   * The potential impacts caused by these security gaps are severe. As DNS queries are not encrypted any bad actor can perform passive reconnaissance in order to build  a profile of the users habits I.e the websites they frequent, in order to target a vulnerable website the user might frequent. Moreover, as there is no proper encryption any credentials used on this website can be easily deciphered. as people tend to reuse passwords (even for their company work accounts) it could lead to a credential stuffing attack against a company's infrastructure due to the leaked credentials. In turn, this could lead to a bad actor moving laterally and potentially compromising the company's entire system. whether they accessed the HTTP website on the company network or not.
 
 * ***Recommended Remediations***
 
