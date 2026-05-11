@@ -41,6 +41,13 @@ With this project, the aim is to capture and analyse the complete process of a w
 
 **5. Explanation**
 
+* ***Outline of Security Posture***
+
+
+* ***Impact Analysis***
+
+* ***Recommended Remediations***
+
 This project is substantial as it mirrors real-world network troubleshooting. Understanding the TCP handshake is vital to troubleshooting errors with unstable conections or blockages caused by firewalls.Moreover, seeing the stark contrast between unencrypted and encrypted traffic highlights the absolute importance of TLS/SSL in modern cybersecurity. This project demonstrated understanding of layers 3,4 and 7 of the OSI model, which is a critical foundation of networking.
 
 
