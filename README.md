@@ -25,7 +25,7 @@ With this project, the aim is to capture and analyse the complete process of a w
 * ***Wireshark setup*** Within the parrot CLI, I ran 'Sudo Wireshark' to start wireshark. Then I selected eth0 from the list of options as this is my primary interface. I applied a filter to the captured packets of 'HTTP || DNS' ,to Wireshark, to remove unwanted traffic from the list.
   * > This is vital as the moment you start running wireshark without a filter, the feed is filled almost instantly with 'noise' like arp requests, so in order to focus on the target traffic we need to apply this filter to work efficiently.
 * ***Generation of target traffic*** using a browser, I navigated to HTTP://neverssl.com in order to generate a DNS lookup and HTTP get request. I had to use the 'nslookup' command as my browser hid the DNS lookup from wireshark.
-* ***Analysis*** I discovered the DNS query(UDP port 53). Additionally, using the "Follow TCP stream" function I was able to locate the TCP handshake (SYN,SYN-ACK,SYN) and the HTTP get request conversation in clear-text.
+* ***Analysis*** I discovered the DNS query(UDP port 53). Additionally, using the "Follow TCP stream" function I was able to locate the TCP handshake (SYN,SYN-ACK,ACK) and the HTTP get request conversation in clear-text.
 
 
 **4. Findings**
