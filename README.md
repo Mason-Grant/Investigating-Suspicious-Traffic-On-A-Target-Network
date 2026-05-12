@@ -79,13 +79,13 @@ The wireshark traffic list showing the green HTTP packets and blue DNS packets (
 
 
 <p align="center">
-  <img src="HTTPpayload.png" alt="HTTPpayload width="100%">
+  <img src="HTTPpayload.png" alt="HTTPpayload" width="100%">
 </p>
 
 The "Follow TCP stream" of the HTTP get request where we can see some details about the firmware of the server hosting the website due to the fact HTTP is not encrypted and is clear-text
 
 
-<p align="Center"?
+<p align="Center">
   <img src="DNSquery.png" alt="Screenshot showing the DNS query in wireshark" width="100%">
 </p>
 
