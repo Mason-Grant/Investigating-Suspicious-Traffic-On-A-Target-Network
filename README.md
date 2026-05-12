@@ -57,7 +57,7 @@ With this project, the aim is to capture and analyse the complete process of a w
 
 * ​***Network Troubleshooting*** Demonstrated how understanding the TCP Three-Way Handshake is essential for diagnosing real-world issues like connection timeouts, unstable links, and firewall-related blockages.
 
-​* ***Security Literacy*** Analyzed the stark contrast between unencrypted (HTTP) and encrypted (HTTPS) traffic, highlighting the critical necessity of TLS/SSL in maintaining a modern security posture.
+* ***Security Literacy*** Analyzed the stark contrast between unencrypted (HTTP) and encrypted (HTTPS) traffic, highlighting the critical necessity of TLS/SSL in maintaining a modern security posture.
 
 * ***OSI Model Proficiency*** Successfully audited network traffic across Layers 3 (Network), 4 (Transport), and 7 (Application), proving a solid foundational understanding of how data moves across a network.
 
