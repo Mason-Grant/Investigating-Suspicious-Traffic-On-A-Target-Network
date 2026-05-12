@@ -52,9 +52,21 @@ With this project, the aim is to capture and analyse the complete process of a w
    * In this scenario we need to implement techniques indicative of the zero trust framework such as:
      * ***Banning HTTP*** the first critical step is to prevent any one from accessing websites via port 80 ensuring that website traffic is only sent via port 443(HTTPS) will ensure all enformation is encrypted making it harder for anyone sniffing packets on the network to sniff credentials or cookies etc.
      * ***Securing DNS*** to prevent DNS queries beint sent as clear-text DOH(DNS over HTTPS) needs to be setup in order to prevent bad actors from sniffing clear-text DNS queries which can lead to a breach. this can be implemented as an SOP citing that employees must enable this in their browser or windows setting, for example.
-    
-  
-This project is substantial as it mirrors real-world network troubleshooting. Understanding the TCP handshake is vital to troubleshooting errors with unstable conections or blockages caused by firewalls.Moreover, seeing the stark contrast between unencrypted and encrypted traffic highlights the absolute importance of TLS/SSL in modern cybersecurity. This project demonstrated understanding of layers 3,4 and 7 of the OSI model, which is a critical foundation of networking.
+
+***Competencies***
+
+* ​***Network Troubleshooting*** Demonstrated how understanding the TCP Three-Way Handshake is essential for diagnosing real-world issues like connection timeouts, unstable links, and firewall-related blockages.
+
+​* ***Security Literacy*** Analyzed the stark contrast between unencrypted (HTTP) and encrypted (HTTPS) traffic, highlighting the critical necessity of TLS/SSL in maintaining a modern security posture.
+
+* ***OSI Model Proficiency*** Successfully audited network traffic across Layers 3 (Network), 4 (Transport), and 7 (Application), proving a solid foundational understanding of how data moves across a network.
+
+* ***Packet Analysis*** Used industry-standard tools (Wireshark) to pivot from simple traffic capture to a deep-dive security audit.
+
+
+
+
+
 
 
 **6. Screenshots/Evidence**
