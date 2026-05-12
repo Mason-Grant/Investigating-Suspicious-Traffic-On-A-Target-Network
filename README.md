@@ -107,7 +107,7 @@ Here we can clearly see the TCP handshake occuring syn, syn-ack and ack. ensurin
   <img src="nslookup.png" alt="nslookup of target in parrot" width="800">
 </p>
 
-in order to ensure the correct packet was being analysed,by double checking the IPv6 address between wireshark and the CLI output, and to force DNS query packets to be detected by wireshark, due to the browser hiding this data from wireshark, nslookup was used on the target URL. here is the terminal output from an non-authoratative DNS server.
+in order to ensure the correct packet was being analysed,by double checking the IPv6 address between wireshark and the CLI output, and to force DNS query packets to be detected by wireshark, due to the browser hiding this data from wireshark, nslookup was used on the target URL. here is the terminal output from an non-authoritative DNS server.
 
 
 
